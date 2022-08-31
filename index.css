@@ -1,0 +1,42 @@
+body {
+    margin: 1rem;
+    text-align: center
+}
+.score {
+    text-align: center;
+    color: #F94F6D;
+    background-color: #080001;
+    font-size: 70px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    margin: 20px;
+    width: 25vh;
+}
+h3 {
+    color: white;
+    font-size: 30px;
+    font-weight:900;
+}
+button {
+    color: white;
+    border-color: white ;
+    border-width: 1px;
+    border-radius: 3px;
+    background: none;
+    margin: auto auto 40px; 
+    font-size: 1rem;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    max-width: 80%;
+    margin: auto;
+}
+.reset {
+    width: 100px;
+    margin-top: 200px;
+}
+#error {
+    color:#F94F6D;
+}
